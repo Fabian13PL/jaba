@@ -1,5 +1,7 @@
 package com.company;
 
+import com.devices.Car;
+
 public class Human {
     Animal pet = new Animal("Lion");
     private Car car = new Car("model1","producer1");
@@ -34,6 +36,10 @@ public class Human {
         }else {
             System.out.println("enroll in studies and find a new job or go for a raise");
         }
+    }
+
+    public String toString(){
+        return pet.toString()+" "+salary+" "+car.toString();
     }
 
 }
