@@ -2,7 +2,9 @@ package com.company;
 
 import com.devices.Car;
 
-public class Human {
+public class Human{
+    Double cash;
+
     Animal pet = new Animal("Lion");
     private Car car = new Car();
 
@@ -42,4 +44,11 @@ public class Human {
         return pet.toString()+" "+salary+" "+car.toString();
     }
 
+    public Animal getAnimal() {
+        return pet;
+    }
+
+    public void setAnimal(Animal animal) {
+        pet=animal;
+    }
 }

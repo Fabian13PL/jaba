@@ -1,6 +1,8 @@
 package com.devices;
 
-public abstract class Devices {
+import com.company.salleable;
+
+public abstract class Devices implements salleable {
      String model;
      String producer;
      int yearOfProduction;

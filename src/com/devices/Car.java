@@ -1,5 +1,7 @@
 package com.devices;
 
+import com.company.Human;
+
 public class Car extends Devices{
     private Double value;
 
@@ -15,6 +17,11 @@ public class Car extends Devices{
 
     @Override
     void turnOn() {
+
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
 
     }
 }
